@@ -7,6 +7,7 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 import { useState } from "react";
 import Lottie from "react-lottie";
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -76,8 +77,6 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        //   add these two
-        //   you can generate the color from here https://cssgradient.io/
         background: "rgb(4,7,29)",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
@@ -87,9 +86,11 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <Image 
               src={img}
               alt={img}
+              width={220}
+              height={220}
               className={cn(imgClassName, "object-cover object-center ")}
             />
           )}
@@ -99,10 +100,11 @@ export const BentoGridItem = ({
             } `}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
-              //   width={220}
+              width={220}
+              height={220}
               className="object-cover object-center w-full h-full"
             />
           )}

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Awais's Porfolio",
+  title:`${process.env.NEXT_PUBLIC_PORTFOLIO_NAME} Portfolio`,
   description: "Modern & Minimalist JS Mastery Portfolio",
 };
 

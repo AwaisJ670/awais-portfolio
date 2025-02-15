@@ -5,7 +5,7 @@ export const navItems = [
     { name: "Contact", link: "#contact" },
   ];
   
-  export const gridItems = [
+export const gridItems = [
     {
       id: 1,
       title: "I prioritize client collaboration, fostering open communication ",
@@ -69,7 +69,7 @@ export const navItems = [
     },
   ];
   
-  export const projects = [
+export const projects = [
     {
       id: 1,
       title: "3D Solar System Planets to Explore",
@@ -104,7 +104,7 @@ export const navItems = [
     },
   ];
   
-  export const testimonials = [
+export const testimonials = [
     {
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
@@ -137,7 +137,7 @@ export const navItems = [
     },
   ];
   
-  export const companies = [
+export const companies = [
     {
       id: 1,
       name: "cloudinary",
@@ -170,7 +170,7 @@ export const navItems = [
     },
   ];
   
-  export const workExperience = [
+export const workExperience = [
     {
       id: 1,
       title: "Frontend Engineer Intern",
@@ -201,11 +201,16 @@ export const navItems = [
     },
   ];
   
-  export const socialMedia = [
+export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
       url:'https://github.com/AwaisJ670'
+    },
+    {
+      id: 2,
+      img: "/wha.svg",
+      url:'https://wa.me/923096174319'
     },
     {
       id: 3,
